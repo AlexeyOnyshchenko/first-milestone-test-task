@@ -2,9 +2,9 @@ version: '3'
 
 services:
   frontend:
-    image: "sskorol/aqa-fe:0.0.1"
+    image: "sskorol/aqa-fe:0.0.3"
     ports:
-      - "3000:3000"
+      - "8262:8262"
     networks:
       - automation
 

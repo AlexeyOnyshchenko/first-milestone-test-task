@@ -1,21 +1,21 @@
 [ {
-  "uid" : "d2ebc99223a5b834",
+  "uid" : "c4204ddec93f703f",
   "name" : "addNewField",
   "time" : {
-    "start" : 1641373472469,
-    "stop" : 1641373475027,
-    "duration" : 2558
+    "start" : 1641389644834,
+    "stop" : 1641389657394,
+    "duration" : 12560
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "minor"
 }, {
-  "uid" : "7eb53ad2c0c8040c",
+  "uid" : "ed8266752dcc4e37",
   "name" : "addNewField",
   "time" : {
-    "start" : 1641373454501,
-    "stop" : 1641373472058,
-    "duration" : 17557
+    "start" : 1641389657541,
+    "stop" : 1641389659547,
+    "duration" : 2006
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "minor"
 } ]

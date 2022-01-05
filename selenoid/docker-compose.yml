@@ -17,7 +17,7 @@ services:
       - "/Users/user/qa_automation_training/first-milestone-test-task/video:/opt/selenoid/video"
       - "${PWD}/logs:/opt/selenoid/logs"
     environment:
-      - OVERRIDE_VIDEO_OUTPUT_DIR="/Users/user/qa_automation_training/first-milestone-test-task/video/"
+      - OVERRIDE_VIDEO_OUTPUT_DIR=/Users/user/qa_automation_training/first-milestone-test-task/video
     command: [ "-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-container-network", "selenoid_automation" ]
     ports:
       - "4444:4444"

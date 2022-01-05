@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="newTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-05T09:04:14" hostname="MacBook-Pro2547.local" time="20.692">
+<testsuite name="newTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-05T13:34:04" hostname="MacBook-Pro2547.local" time="14.999">
   <properties/>
-  <testcase name="addNewField[0](Test1)" classname="newTest" time="17.64"/>
-  <testcase name="addNewField[1](Test2)" classname="newTest" time="2.577"/>
+  <testcase name="addNewField[0](Test1)" classname="newTest" time="12.818"/>
+  <testcase name="addNewField[1](Test2)" classname="newTest" time="2.028"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 239 ms to scan 3 urls, producing 843 keys and 4503 values 
+  <system-err><![CDATA[[Test worker] INFO org.reflections.Reflections - Reflections took 238 ms to scan 3 urls, producing 843 keys and 4503 values 
 [Test worker] WARN org.reflections.Reflections - could not get type for name org.opentest4j.MultipleFailuresError from any class loader
 org.reflections.ReflectionsException: could not get type for name org.opentest4j.MultipleFailuresError
 	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:390)
@@ -798,14 +798,14 @@ Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.extension.Tes
 	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:388)
 	... 63 more
 [Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/user/qa_automation_training/first-milestone-test-task/build/downloads/1641373454614_27380_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: /Users/user/qa_automation_training/first-milestone-test-task/build/downloads/1641389644871_32138_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/user/.cache/selenium/chromedriver/mac64/96.0.4664.45/chromedriver
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 5062
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 47079
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 05, 2022 11:04:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 05, 2022 3:34:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from 120000 to 60000
 [Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from 10800000 to 120000
@@ -813,6 +813,6 @@ INFO: Detected dialect: W3C
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=96.0.4664.110 Platform=MAC
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.24.0
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (0d73b45b2aa7abf1b1907eda111ccdea)
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on MAC (82506c65677a08ed372e3e9bb9ace44c)
 ]]></system-err>
 </testsuite>

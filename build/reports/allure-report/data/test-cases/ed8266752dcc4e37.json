@@ -1,12 +1,12 @@
 {
-  "uid" : "7eb53ad2c0c8040c",
+  "uid" : "ed8266752dcc4e37",
   "name" : "addNewField",
   "fullName" : "newTest.addNewField",
-  "historyId" : "40818cc753267112cbd51b9b5e3e379b",
+  "historyId" : "ffad06052e263283a0da54c30bc7e4e1",
   "time" : {
-    "start" : 1641373454501,
-    "stop" : 1641373472058,
-    "duration" : 17557
+    "start" : 1641389657541,
+    "stop" : 1641389659547,
+    "duration" : 2006
   },
   "status" : "passed",
   "flaky" : false,
@@ -36,7 +36,7 @@
     "value" : "MacBook-Pro2547.local"
   }, {
     "name" : "thread",
-    "value" : "27380@MacBook-Pro2547.local.Test worker(1)"
+    "value" : "32138@MacBook-Pro2547.local.Test worker(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -44,22 +44,28 @@
     "name" : "language",
     "value" : "java"
   }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
   "parameters" : [ {
     "name" : "fieldName",
-    "value" : "Test1"
+    "value" : "Test2"
   } ],
-  "links" : [ ],
+  "links" : [ {
+    "name" : "1",
+    "type" : "issue"
+  } ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
-    "severity" : "normal",
+    "severity" : "minor",
     "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7eb53ad2c0c8040c.json",
-  "parameterValues" : [ "Test1" ]
+  "source" : "ed8266752dcc4e37.json",
+  "parameterValues" : [ "Test2" ]
 }

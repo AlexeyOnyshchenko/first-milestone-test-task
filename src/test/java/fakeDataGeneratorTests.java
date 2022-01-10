@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static org.testng.Assert.*;
 
 
-public class newTest {
+public class fakeDataGeneratorTests {
 
     private RawDataPage rawDataPage = new RawDataPage();
     private MainPage mainPage = new MainPage();

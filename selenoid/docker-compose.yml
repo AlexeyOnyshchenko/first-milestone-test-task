@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    image: "sskorol/aqa-fe:0.0.3"
+    image: "sskorol/aqa-fe:0.0.4"
     ports:
       - "8262:8262"
     networks:
@@ -10,19 +10,19 @@ services:
   selenoid:
     networks:
       - automation
-    image: aerokube/selenoid:latest-release
+    image: aerokube/selenoid:latest
     volumes:
       - "${PWD}:/etc/selenoid"
       - "/var/run/docker.sock:/var/run/docker.sock"
-      - "/Users/user/qa_automation_training/first-milestone-test-task/video:/opt/selenoid/video"
+      - "${PWD}/video:/opt/selenoid/video"
       - "${PWD}/logs:/opt/selenoid/logs"
     environment:
-      - OVERRIDE_VIDEO_OUTPUT_DIR=/Users/user/qa_automation_training/first-milestone-test-task/video
+      - OVERRIDE_VIDEO_OUTPUT_DIR=${PWD}/video/
     command: [ "-conf", "/etc/selenoid/browsers.json", "-video-output-dir", "/opt/selenoid/video", "-log-output-dir", "/opt/selenoid/logs", "-container-network", "selenoid_automation" ]
     ports:
       - "4444:4444"
   selenoid-ui:
-    image: "aerokube/selenoid-ui:latest-release"
+    image: "aerokube/selenoid-ui:latest"
     depends_on:
       - selenoid
     ports:

@@ -1,24 +1,305 @@
 {
-  "40818cc753267112cbd51b9b5e3e379b" : {
+  "ac6bcec6d627fe7641b51944d1ec4334" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4204ddec93f703f",
-      "status" : "passed",
+      "uid" : "cf473d1fa9937ce4",
+      "status" : "failed",
+      "statusDetails" : "Job title field label is displayed expected [true] but found [false]",
       "time" : {
-        "start" : 1641389644834,
-        "stop" : 1641389657394,
-        "duration" : 12560
+        "start" : 1641837927836,
+        "stop" : 1641837928759,
+        "duration" : 923
       }
     } ]
   },
-  "ffad06052e263283a0da54c30bc7e4e1" : {
+  "201a4e82b2b0ea3218e3f9ad4a34f220" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4814e7bff29e62bd",
+      "status" : "failed",
+      "statusDetails" : "Zip field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837931606,
+        "stop" : 1641837932533,
+        "duration" : 927
+      }
+    } ]
+  },
+  "19a889a04487c2f846b0fab04e3afab4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d130fa2b506cb52",
+      "status" : "failed",
+      "statusDetails" : "Phone field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837928765,
+        "stop" : 1641837929836,
+        "duration" : 1071
+      }
+    } ]
+  },
+  "5082c7815484f19656e99a6a5a38c6ce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41c55feeb21e2142",
+      "status" : "failed",
+      "statusDetails" : "Bitcoin address field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837929852,
+        "stop" : 1641837930710,
+        "duration" : 858
+      }
+    } ]
+  },
+  "4a9eb56680a9347884bb58ea95e76389" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a743a14720f07b49",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Zip']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837983021.9.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837983021.9.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Zip']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837978376,
+        "stop" : 1641837983185,
+        "duration" : 4809
+      }
+    } ]
+  },
+  "dd66ef26d9aaa6c8997481fc35be99fc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b78aadbe4481138",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Company']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837978228.8.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837978228.8.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Company']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837973838,
+        "stop" : 1641837978353,
+        "duration" : 4515
+      }
+    } ]
+  },
+  "e7b673175dcc5e806c9410b693129224" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3169862201fea372",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Bitcoin address']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837973660.7.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837973660.7.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Bitcoin address']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837968977,
+        "stop" : 1641837973817,
+        "duration" : 4840
+      }
+    } ]
+  },
+  "63e97c825dbc0659fe29ce12b6edd13f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b2ca0f87cf4ddc7",
+      "status" : "failed",
+      "statusDetails" : "Avatar field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837924408,
+        "stop" : 1641837925314,
+        "duration" : 906
+      }
+    } ]
+  },
+  "ecbd2a83f5227e3206bcbfa24f43d20d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4130d4cf756a49dd",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Password']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837959515.4.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837959515.4.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Password']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837955078,
+        "stop" : 1641837959711,
+        "duration" : 4633
+      }
+    } ]
+  },
+  "3fe72b1a1771a8cd47663b2187eacc9a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff3d21dec8f0b381",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Job title']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837964230.5.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837964230.5.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Job title']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837959722,
+        "stop" : 1641837964399,
+        "duration" : 4677
+      }
+    } ]
+  },
+  "9bc128f7cf79d182b2d5692f21eb955a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9608251de906bf4c",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Email']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837945346.1.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837945346.1.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Email']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837940811,
+        "stop" : 1641837945572,
+        "duration" : 4761
+      }
+    } ]
+  },
+  "637a687a01e6519feb5d32343b7cd4b9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33a23f0d6e4a26a6",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Username']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837954879.3.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837954879.3.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Username']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837950454,
+        "stop" : 1641837955064,
+        "duration" : 4610
+      }
+    } ]
+  },
+  "e8d3b8d9af5355a0df1f0ffd31c92785" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d74bc39b3c2f8a4",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Address']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837987842.10.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837987842.10.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Address']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837983191,
+        "stop" : 1641837987980,
+        "duration" : 4789
+      }
+    } ]
+  },
+  "73c3c6ea3c353601fd9ed3528e6ba32f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c814c71cfc9aff9",
+      "status" : "failed",
+      "statusDetails" : "Test1 JSON field is displayed expected [false] but found [true]",
+      "time" : {
+        "start" : 1641837997577,
+        "stop" : 1641837999055,
+        "duration" : 1478
+      }
+    } ]
+  },
+  "c7bc57a5ae9f590899c9b2df1feee21b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30f03dc3e3680bc3",
+      "status" : "failed",
+      "statusDetails" : "Username field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837925339,
+        "stop" : 1641837926861,
+        "duration" : 1522
+      }
+    } ]
+  },
+  "eb14f340b328a60c1bc995a760ea86b7" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -28,12 +309,270 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ed8266752dcc4e37",
+      "uid" : "3f26bfa9498368f1",
       "status" : "passed",
       "time" : {
-        "start" : 1641389657541,
-        "stop" : 1641389659547,
-        "duration" : 2006
+        "start" : 1641837907948,
+        "stop" : 1641837919969,
+        "duration" : 12021
+      }
+    } ]
+  },
+  "92f6238366578141109d39bc1fa1061" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76cf6d60e08321c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641837920085,
+        "stop" : 1641837922352,
+        "duration" : 2267
+      }
+    } ]
+  },
+  "4669dd57c14840601965ba2727747384" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0b5d913462c60e5",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Phone']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837968816.6.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837968816.6.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Phone']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837964410,
+        "stop" : 1641837968948,
+        "duration" : 4538
+      }
+    } ]
+  },
+  "f456bba8c1525d13efa8d5b263564c1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c90a03beb8a1e09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641837922618,
+        "stop" : 1641837923081,
+        "duration" : 463
+      }
+    } ]
+  },
+  "c92e320c92bc75bda4ad90558788cf75" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "abaac6aafe336c48",
+      "status" : "failed",
+      "statusDetails" : "Date field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837933613,
+        "stop" : 1641837934493,
+        "duration" : 880
+      }
+    } ]
+  },
+  "7e6d45ca311c13cc7b8c241db5fdcd4d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4a66d411667167c7",
+      "status" : "failed",
+      "statusDetails" : "Email field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837923094,
+        "stop" : 1641837924398,
+        "duration" : 1304
+      }
+    } ]
+  },
+  "6e2d7a39f9cc567f7c09edc689b939ce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b6b6e46ec8e25d8",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='City']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837997078.12.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837997078.12.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='City']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837992632,
+        "stop" : 1641837997305,
+        "duration" : 4673
+      }
+    } ]
+  },
+  "ccaa12dc9a72754106532aa1675b6c50" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c95f1bcf9773e08b",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Avatar']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837950237.2.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837950237.2.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Avatar']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837945587,
+        "stop" : 1641837950439,
+        "duration" : 4852
+      }
+    } ]
+  },
+  "bcafd113743e086591c3aea8114ac254" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c46df8a44e9d070e",
+      "status" : "failed",
+      "statusDetails" : "Company field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837930715,
+        "stop" : 1641837931599,
+        "duration" : 884
+      }
+    } ]
+  },
+  "a2d6d4526c875f5e241194e92a158c70" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3180cd38922199d4",
+      "status" : "failed",
+      "statusDetails" : "Password field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837926868,
+        "stop" : 1641837927826,
+        "duration" : 958
+      }
+    } ]
+  },
+  "7669ad15d0ef7cf8e440ef391a571272" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84195568edcef178",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Name']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837940447.0.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837940447.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Name']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837935600,
+        "stop" : 1641837940793,
+        "duration" : 5193
+      }
+    } ]
+  },
+  "b25b4adeda7a60c3c1bf23ea4eb54695" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d713f494cd4ab5ce",
+      "status" : "failed",
+      "statusDetails" : "City field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837934502,
+        "stop" : 1641837935340,
+        "duration" : 838
+      }
+    } ]
+  },
+  "eb8f9fca066c040193d84b70be3ccf95" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0e828645f857318",
+      "status" : "failed",
+      "statusDetails" : "Element not found {By.xpath: //div[text()='Date']/following-sibling::div}\nExpected: exist\nScreenshot: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837992409.11.png\nPage source: file:/Users/user/qa_automation_training/first-milestone-test-task/build/reports/tests/1641837992409.11.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Date']/following-sibling::div\"}",
+      "time" : {
+        "start" : 1641837987988,
+        "stop" : 1641837992626,
+        "duration" : 4638
+      }
+    } ]
+  },
+  "9b4719493e7e26c227e38f52bd8617" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5246b595730c304a",
+      "status" : "failed",
+      "statusDetails" : "Address field label is displayed expected [true] but found [false]",
+      "time" : {
+        "start" : 1641837932560,
+        "stop" : 1641837933607,
+        "duration" : 1047
       }
     } ]
   }

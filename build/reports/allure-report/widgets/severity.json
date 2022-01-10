@@ -1,21 +1,291 @@
 [ {
-  "uid" : "c4204ddec93f703f",
-  "name" : "addNewField",
+  "uid" : "41c55feeb21e2142",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
   "time" : {
-    "start" : 1641389644834,
-    "stop" : 1641389657394,
-    "duration" : 12560
+    "start" : 1641837929852,
+    "stop" : 1641837930710,
+    "duration" : 858
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "4130d4cf756a49dd",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837955078,
+    "stop" : 1641837959711,
+    "duration" : 4633
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "33a23f0d6e4a26a6",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837950454,
+    "stop" : 1641837955064,
+    "duration" : 4610
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "3169862201fea372",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837968977,
+    "stop" : 1641837973817,
+    "duration" : 4840
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "abaac6aafe336c48",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837933613,
+    "stop" : 1641837934493,
+    "duration" : 880
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "1d130fa2b506cb52",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837928765,
+    "stop" : 1641837929836,
+    "duration" : 1071
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "30f03dc3e3680bc3",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837925339,
+    "stop" : 1641837926861,
+    "duration" : 1522
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "3b6b6e46ec8e25d8",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837992632,
+    "stop" : 1641837997305,
+    "duration" : 4673
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4c90a03beb8a1e09",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837922618,
+    "stop" : 1641837923081,
+    "duration" : 463
   },
   "status" : "passed",
   "severity" : "minor"
 }, {
-  "uid" : "ed8266752dcc4e37",
+  "uid" : "3f26bfa9498368f1",
   "name" : "addNewField",
   "time" : {
-    "start" : 1641389657541,
-    "stop" : 1641389659547,
-    "duration" : 2006
+    "start" : 1641837907948,
+    "stop" : 1641837919969,
+    "duration" : 12021
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a743a14720f07b49",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837978376,
+    "stop" : 1641837983185,
+    "duration" : 4809
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4a66d411667167c7",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837923094,
+    "stop" : 1641837924398,
+    "duration" : 1304
+  },
+  "status" : "failed",
   "severity" : "minor"
+}, {
+  "uid" : "5246b595730c304a",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837932560,
+    "stop" : 1641837933607,
+    "duration" : 1047
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "76cf6d60e08321c4",
+  "name" : "verifyCopyingToClipboardFunctionality",
+  "time" : {
+    "start" : 1641837920085,
+    "stop" : 1641837922352,
+    "duration" : 2267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b2ca0f87cf4ddc7",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837924408,
+    "stop" : 1641837925314,
+    "duration" : 906
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "4814e7bff29e62bd",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837931606,
+    "stop" : 1641837932533,
+    "duration" : 927
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "3180cd38922199d4",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837926868,
+    "stop" : 1641837927826,
+    "duration" : 958
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "d713f494cd4ab5ce",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837934502,
+    "stop" : 1641837935340,
+    "duration" : 838
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "b0b5d913462c60e5",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837964410,
+    "stop" : 1641837968948,
+    "duration" : 4538
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "7d74bc39b3c2f8a4",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837983191,
+    "stop" : 1641837987980,
+    "duration" : 4789
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0e828645f857318",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837987988,
+    "stop" : 1641837992626,
+    "duration" : 4638
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "84195568edcef178",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837935600,
+    "stop" : 1641837940793,
+    "duration" : 5193
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c46df8a44e9d070e",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837930715,
+    "stop" : 1641837931599,
+    "duration" : 884
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "cf473d1fa9937ce4",
+  "name" : "verifyThatAllFieldLabelsAreVisible",
+  "time" : {
+    "start" : 1641837927836,
+    "stop" : 1641837928759,
+    "duration" : 923
+  },
+  "status" : "failed",
+  "severity" : "minor"
+}, {
+  "uid" : "5b78aadbe4481138",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837973838,
+    "stop" : 1641837978353,
+    "duration" : 4515
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "9608251de906bf4c",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837940811,
+    "stop" : 1641837945572,
+    "duration" : 4761
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c814c71cfc9aff9",
+  "name" : "verifyThatJsonFieldIsDeleted",
+  "time" : {
+    "start" : 1641837997577,
+    "stop" : 1641837999055,
+    "duration" : 1478
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff3d21dec8f0b381",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837959722,
+    "stop" : 1641837964399,
+    "duration" : 4677
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "c95f1bcf9773e08b",
+  "name" : "verifyThatGeneratedValuesAreNotEmpty",
+  "time" : {
+    "start" : 1641837945587,
+    "stop" : 1641837950439,
+    "duration" : 4852
+  },
+  "status" : "failed",
+  "severity" : "critical"
 } ]

@@ -42,10 +42,5 @@ public class JsonSchemaPage {
     }
 
 
-    //SelenideElement dropDown = $x("//button[text()=']");
-    //    public void selectSchemaFieldType(String typeName) {
-//        dropDown.selectOptionContainingText(typeName);
-//    }
-
 }
 

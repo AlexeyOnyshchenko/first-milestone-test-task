@@ -45,19 +45,22 @@ public class fakeDataGeneratorTests {
                 "City");
 
     }
+// Selenoid integration
 
-//    @BeforeSuite
-//    public void setup() {
-//        Configuration.remote = "http://localhost:4444/wd/hub";
-//        Configuration.driverManagerEnabled = false;
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-//                "enableVNC", true,
-//                "enableVideo", true
-//        ));
-//
-//        Configuration.browserCapabilities = capabilities;
-//    }
+/*    @BeforeSuite
+    public void setup() {
+        Configuration.remote = "http://localhost:4444/wd/hub";
+        Configuration.driverManagerEnabled = false;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+
+        Configuration.browserCapabilities = capabilities;
+    }
+
+ */
 
     @Test(dataProvider = "jsonFieldNames")
     @Issue("1")
@@ -107,47 +110,6 @@ public class fakeDataGeneratorTests {
         assertNotEquals(jsonSchemaPage.verifyCopyToClipboard(), "", " no data is copied to clipboard");
 
     }
-
-
-
-
-
-
-
-
-
-//    @Test(dataProvider = "fieldNames")
-//    @Issue("1")
-//    @Severity(SeverityLevel.MINOR)
-//    public void verifyThatRegenerateButtonGeneratesNewData() throws InterruptedException {
-//        open("http://localhost:8262/fake-data-generator");
-//        assertThat($x("//button[text()='Regenerate']").
-//
-//    }
-
-//assertNotEquals(Selenide.clipboard().getText(), "", " generated data for field " + fieldLable + " is not empty" ); -
-
-
-
-
-
-
-//
-//    @Test(dataProvider = "fieldNames")
-//    @Issue("1")
-//    @Severity(SeverityLevel.MINOR)
-//    public void addNewField(String fieldName) throws InterruptedException {
-//        open("http://localhost:8262/fake-data-generator");
-//        $x("//button[text()='Regenerate']").click();
-//        $x("//button[text()='JSON Schema']").click();
-//        //$x("//button[text()='Raw data']").click();
-//        $x("//button[text()='+ Add field']").click();
-//        $x("//input[@value='']").sendKeys(fieldName);
-//        $x("//button[text()='+ Add field']").click();
-//        String actualFieldName = $x("//input[@value='" + fieldName + "']").getAttribute("value");
-//        assertThat(actualFieldName).isEqualTo(fieldName);
-//
-//    }
 
 }
 

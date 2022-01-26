@@ -23,19 +23,19 @@ public class JsonSchemaPage {
     }
 
 
-
-    @Step ("Click on the Remove button for the selected field")
+    @Step("Click on the Remove button for the selected field")
     public void removeJSONfield(String jsonFieldName) {
         $x("//input[@value='" + jsonFieldName + "']/parent::div/following-sibling::button").click();
 
     }
-    @Step ("Verify that removed field is displayed")
+
+    @Step("Verify that removed field is displayed")
     public boolean verifyIfFieldIsDisplayed(String jsonFieldName) {
         return $x("//input[@value='" + jsonFieldName + "']").isDisplayed();
 
     }
 
-    @Step ("Verify that Copy to clipboard button is clicked and text is copied")
+    @Step("Verify that Copy to clipboard button is clicked and text is copied")
     public String verifyCopyToClipboard() {
         copyToClipboardButton.click();
         return Selenide.clipboard().getText();

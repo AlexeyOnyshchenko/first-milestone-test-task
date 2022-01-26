@@ -12,12 +12,7 @@ public class RawDataPage {
 
     public String getGeneratedFieldaTextValue(String rawDataField) {
         return $x("//div[text()='" + rawDataField + "']/following-sibling::div").getText();
-}
-
-
-
-
-
+    }
 
 
 }

@@ -20,8 +20,8 @@ public class fakeDataGeneratorTests {
     private JsonSchemaPage jsonSchemaPage = new JsonSchemaPage();
 
 
-      @DataSupplier
-      public List<String> jsonFieldNames() {
+    @DataSupplier
+    public List<String> jsonFieldNames() {
         return List.of(
                 "Test1");
 
@@ -88,10 +88,11 @@ public class fakeDataGeneratorTests {
     @Severity(SeverityLevel.CRITICAL)
     public void verifyThatGeneratedValuesAreNotEmpty(String rawDataField) throws InterruptedException {
         open("http://localhost:8262/fake-data-generator");
-        assertNotEquals(rawDataPage.getGeneratedFieldaTextValue(rawDataField), "", " generated data for field " + rawDataField + " is not empty" );
+        assertNotEquals(rawDataPage.getGeneratedFieldaTextValue(rawDataField), "", " generated data for field " + rawDataField + " is not empty");
 
 
     }
+
     @Test(dataProvider = "jsonFieldNames")
     @Issue("4")
     @Severity(SeverityLevel.NORMAL)
@@ -101,6 +102,7 @@ public class fakeDataGeneratorTests {
         jsonSchemaPage.removeJSONfield(jsonFieldName);
         assertFalse(jsonSchemaPage.verifyIfFieldIsDisplayed(jsonFieldName), jsonFieldName + " JSON field is displayed");
     }
+
     @Test
     @Issue("5")
     @Severity(SeverityLevel.NORMAL)
